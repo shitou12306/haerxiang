@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.tc {
+    text-align: center;
+}
+.font_16 {
+    font-size: 16px;
+}
+body{
+    background: url('../img/dabj.jpg');
+}
+/* header start */
+/* .min_w {
+    min-width: 1200px;
+} */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.top_bg {
+    height: 31px;
+    line-height: 31px;
+    padding-bottom: 5px;
+    background: url(../img/topbj.jpg) repeat-x bottom #f7f7f7;
+    color: #5a3731;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.cl {
+    clear: both;
+}
+.white_bg{
+    background: white;
+}
+.nav_bg {
+    height: 55px;
+    background: #b41d23;
+}
+.nav li{
+	line-height:55px;
+	width:120px;
+	float:left;
+}
+.nav li a{
+	display:block;
+	font-size: 16px;
+	color:#fff;
+	text-align: center;
+}
+.nav li a:hover{
+	background:#840005;
+}
+.bannertp{
+    width: 100%;
+    height: 304px;
+    position: relative;
+}
+.bannerbox{
+   width: 100%;
+   height: 304px;
+  overflow: hidden; 
+}
+img{
+    display: block;
+}
+/* header end */
+/* 简介开始 */
+.about_tit {
+    height: 160px;
+    background: url(../img/jianjietop1.png) no-repeat center top;
+    color: #cb0404;
+}
+.about_tit dt {
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.about_tit dd {
+    padding: 20px 0;
+}
+img {
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+.about_con {
+    width: 640px;
+}
+.about_con_tit {
+    padding: 10px 0;
+}
+.about_con_tit_text {
+    width: 490px;
+    margin: 0 auto;
+    height: 43px;
+    line-height: 43px;
+    border-top: #ed351e solid 1px;
+    border-bottom: #ed351e solid 1px;
+    color: #525252;
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.about_text {
+    line-height: 30px;
+    height: 270px;
+    color: #555;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.about_type_pos {
+    height: 240px;
+    position: relative;
+}
+.about_type {
+    position: absolute;
+    left: 0;
+    top: -24px;
+    width: 100%;
+    height: 335px;
+    background: url(../img/jianjiexiabj.png) no-repeat center top;
+}
+.about_type ul {
+    width: 900px;
+    margin: 0 auto;
+}
+.about_type li {
+    width: 300px;
+    float: left;
+    padding-top: 65px;
+}
+.about_type_name {
+    height: 40px;
+    line-height: 40px;
+    background: url(../img/jianjiexiayuandian.png) no-repeat center center;
+    color: #562e2f;
+    display: block;
+    text-transform: uppercase;
+}
+/* 产品中心开始 */
+.pro_bg {
+    padding: 30px 0;
+    background: #23181a;
+}
+.pro_box {
+    width: 1161px;
+    margin: 0 auto;
+}
+.pro_tit {
+    height: 160px;
+    background: url(../img/chanpintop1.png) no-repeat center top;
+    color: #fff;
+}
+.pro_tit dt {
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.pro_tit dd {
+    padding: 20px 0;
+}
+.pro_list {
+    width: 870px;
+}
+.pro_list li {
+    transition: all 0.5s ease;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 201px;
+    float: left;
+    position: relative;
+}
+.pro_list li span {
+    transition: all 0.5s ease;
+    bottom: -201px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 101px;
+    padding-top: 100px;
+    background: rgba(0,0,0,0.5) url(../img/jiahao.png) no-repeat center 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.pro_list li :hover span{
+   display: block;
+}
+/* 产品中心结束 */
+/* 新闻中心开始 */
+.about_tit {
+    height: 160px;
+    background: url(../img/jianjietop1.png) no-repeat center top;
+    color: #cb0404;
+}
+.about_tit dt {
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.about_tit dd {
+    padding: 20px 0;
+}
+.new_list li {
+    width: 570px;
+    float: left;
+    margin: 50px 15px;
+}
+.new_list_pic img {
+    border: #b41d23 solid 3px;
+}
+.new_list_con {
+    width: 400px;
+    color: #333;
+}
+.new_list_tit {
+    height: 33px;
+    border-bottom: #97958e dashed 1px;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+/* 新闻中心结束 */
+/* 厂区展示开始 */
+.show_bg {
+    height: 430px;
+    background: url(../img/changqubj.jpg) no-repeat center top;
+}
+.pro_tit {
+    height: 160px;
+    background: url(../img/chanpintop1.png) no-repeat center top;
+    color: #fff;
+}
+.pro_tit dt {
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.scrollpic {
+    width: 1200px;
+}
+#mybtns {
+    display: block;
+    position: relative;
+}
+#mybtns #right {
+    background: url(../img/xiangyou.png) no-repeat center center;
+    position: absolute;
+    right: -50px;
+    top: 80px;
+}
+#mybtns #left {
+    background: url(../img/xiangzuo.png) no-repeat center center;
+    position: absolute;
+    left: -50px;
+    top: 80px;
+}
+#myscroll {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 201px;
+    overflow: hidden;
+}
+#myscroll #myscrollbox {
+    display: block;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000000px;
+}
+#myscroll ul {
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#myscroll ul li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    width: 283px;
+}
+#myscroll ul li a {
+    display: block;
+    float: left;
+    width: 283px;
+    padding: 0;
+    position: relative;
+    height: 201px;
+    color: #333;
+}
+/* 厂区展示结束 */
+/* 营销 联系 开始 */
+.net {
+    width: 560px;
+}
+.net_tit {
+    height: 35px;
+    border-bottom: #f00 dashed 1px;
+    color: #f00;
+    background: url(../img/yxshang.png) no-repeat left top;
+    line-height: 24px;
+    padding-left: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.net_tit font {
+    font-size: 20px;
+    color: #333;
+    padding-right: 5px;
+}
+.net_text {
+    width: 340px;
+    height: 132px;
+    overflow: hidden;
+}
+/* 营销 联系 结束 */
+/* header 结束 */
+/* 定位开始 */
+.side{
+    position: fixed;
+    width: 54px;
+    height: 216px;
+    background: #333;
+    right: 0;
+    top: 214px;
+    z-index: 999;
+}
+.side ul li {
+    width: 54px;
+    height: 54px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #444;
+}
+.side ul li .sidebox {
+    position: absolute;
+    height: 54px;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    opacity: 0.8;
+    color: #fff;
+    overflow: hidden;
+    line-height: 54px;
+}
+.side ul li:hover .sidebox{
+    width: 124px;
+    background: rgb(174, 28, 28);
+    float: left;
+
+}
+.side ul li img{
+    float: left;
+}
+/* 定位结束 */
+/* footer 开始 */
+.copyright {
+    padding: 30px 0;
+    color: #fff;
+    background: #b41d23;
+}
+/* footer 结束 */
